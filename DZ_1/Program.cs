@@ -44,11 +44,11 @@ if (n1 > n2 && n1 > n3)
 {
     Console.WriteLine("Maximum number is "+ n1);
 }
-if (n2 > n1 & n2 > n3)
+if (n2 > n1 && n2 > n3)
 {
     Console.WriteLine("Maximum number is "+ n2);
 }
-if (n3 > n1 & n3 > n2)
+if (n3 > n1 && n3 > n2)
 {
     Console.WriteLine("Maximum number is "+ n3);
 }
