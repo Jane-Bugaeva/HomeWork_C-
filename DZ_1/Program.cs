@@ -40,7 +40,7 @@ int n2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input third number: ");
 int n3 = Convert.ToInt32(Console.ReadLine());
 
-if (n1 > n2 & n1 > n3)
+if (n1 > n2 && n1 > n3)
 {
     Console.WriteLine("Maximum number is "+ n1);
 }
