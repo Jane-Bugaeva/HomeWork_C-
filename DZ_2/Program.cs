@@ -6,7 +6,7 @@
 918 -> 1
 */
 
-/*
+
 int TheSecondDigitMethod(int num)
 
 {
@@ -30,7 +30,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 int TheSecondDigitIs = TheSecondDigitMethod(num);
 Console.WriteLine($"The second digit of three-digit number {num} is {TheSecondDigitIs}");
-*/
+
 
 
 
@@ -44,7 +44,7 @@ Console.WriteLine($"The second digit of three-digit number {num} is {TheSecondDi
 32679 -> 6
 */
 
-/*
+
 int TheThirdDigitMethod(int num)
 
 {
@@ -79,7 +79,7 @@ else
 {
     Console.WriteLine($"The third digit of {num} is {TheThirdDigitIs}");
 }
-*/
+
 
 
 
