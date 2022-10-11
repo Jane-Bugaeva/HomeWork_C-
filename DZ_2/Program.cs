@@ -73,7 +73,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 int TheThirdDigitIs = TheThirdDigitMethod(num);
 if (num < 100)
 {
-    Console.WriteLine($"The third digit of {num} does not exist");
+    Console.WriteLine($"The third digit of number {num} does not exist");
 }
 else
 {
