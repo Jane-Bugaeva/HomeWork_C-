@@ -91,57 +91,25 @@ else
 1 -> нет
 */
 
-/* Первый варинат решения без метода.*/
-
-/*
-Console.Write("Enter the day of the week from 1 to 7: ");
-int num = Convert.ToInt32(Console.ReadLine());
-
-if (num > 5)
+void TheWeekDayMethod(int num)
 {
-    Console.WriteLine("да");
-}
-else
-{
-    Console.WriteLine("нет");
-}
-*/
-
-/* Второй вариант решения с методом.*/
-
-
-int TheWeekDayMethod(int num)
-{
-    int result;
-
-    if (num > 5)
+    
+    if (num > 0 && num < 6)
     {
-        result = 1;
+       Console.WriteLine("нет");
     }
-    else
+    if (num > 5 && num < 8)
     {
-        result = 0;
+       Console.WriteLine("да");
+    }
+    if (num < 1 || num > 7)
+    {
+        Console.WriteLine("Incorrect input. Try again.");
     }
 
-    return result;
 }
 
 Console.Write("Enter the day of the week from 1 to 7: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-int TheWeekDay = TheWeekDayMethod(num);
-if (num > 7)
-{
-    Console.WriteLine("Incorrect input. Try again.");
-}
-else
-{
-    if (TheWeekDay == 1)
-    {
-        Console.WriteLine("да");
-    }
-    else
-    {
-        Console.WriteLine("нет");
-    }
-}
+TheWeekDayMethod(num);
