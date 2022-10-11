@@ -77,7 +77,7 @@ if (num < 100)
 }
 else
 {
-    Console.WriteLine($"The third digit of {num} is {TheThirdDigitIs}");
+    Console.WriteLine($"The third digit of number {num} is {TheThirdDigitIs}");
 }
 
 
