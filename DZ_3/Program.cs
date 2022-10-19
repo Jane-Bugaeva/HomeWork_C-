@@ -16,7 +16,7 @@ void PalindromMethod(int num)
         {
             Console.WriteLine("Число является палиндромом");
         }
-        if ((num % 10) > (num / 10000) || ((num % 10) < (num / 10000)))
+        else
         {
             Console.WriteLine("Число не является палиндромом");
         }        
@@ -44,7 +44,7 @@ A (3,6,8); B (2,1,-7), -> 15.84
 A (7,-5, 0); B (1,-1,9) -> 11.53
 */
 
-
+/*
 double The3DMethod (double firstX, double firstY, double firstZ, double secondX, double secondY, double secondZ) 
 {
   double distance = Math.Sqrt((secondX - firstX) * (secondX - firstX) + (secondY - firstY) * (secondY - firstY) + (secondZ - firstZ) * (secondZ - firstZ));
@@ -65,7 +65,7 @@ Console.Write("Введите данные Z второго числа: ");
 double secondZ = Convert.ToDouble(Console.ReadLine());
 
 Console.Write( $"Расстояние между двумя точками в 3D пространстве: {The3DMethod (firstX, firstY, firstZ, secondX, secondY, secondZ)}");
-
+*/
 
 
 /*
@@ -75,7 +75,7 @@ Console.Write( $"Расстояние между двумя точками в 3D
 5 -> 1, 8, 27, 64, 125
 */
 
-
+/*
 void KubMethod(int num) 
 {
     for (int i = 1; i <= num; i = i + 1)
@@ -88,3 +88,4 @@ void KubMethod(int num)
 Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 KubMethod(num);
+*/
