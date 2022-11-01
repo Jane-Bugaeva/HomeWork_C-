@@ -4,7 +4,7 @@
 2, 4 -> 16
 */
 
-/*
+
 double StepenMethod(double numOne, double numTwo)
 {
     double result = Math.Pow(numOne, numTwo);
@@ -18,7 +18,7 @@ double numTwo = Convert.ToDouble(Console.ReadLine());
 
 double TheResult = StepenMethod( numOne, numTwo);
 Console.WriteLine($"Если возвести число {numOne} в степень {numTwo} получится {TheResult}");
-*/
+
 
 
 
@@ -29,7 +29,7 @@ Console.WriteLine($"Если возвести число {numOne} в степе�
 9012 -> 12
 */
 
-/*
+
 int SumDigitMethod(int num)
 {
     int SumDigit = 0;
@@ -47,7 +47,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 int SumDigitIs = SumDigitMethod(num);
 Console.WriteLine($"Сумма всех цифр числа {num} равна {SumDigitIs}");
-*/
+
 
 /*
 Задача 29: Напишите программу, которая задаёт массив из m элементов и выводит их на экран.
