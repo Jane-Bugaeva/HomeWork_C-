@@ -3,7 +3,7 @@
 [345, 897, 568, 234] -> 2
 */
 
-/*
+
 int[] CreateRandomArray(int size, int minVal, int maxVal)
 {
     int[] array = new int[size];
@@ -39,7 +39,7 @@ int[] array  = CreateRandomArray(num, 100, 1000);
 ShowArray (array);
 
 Console.WriteLine($"-> {PositiveMethod(array)}");
-*/
+
 
 
 
@@ -49,7 +49,7 @@ Console.WriteLine($"-> {PositiveMethod(array)}");
 [-4, -6, 89, 6] -> 0
 */
 
-/*
+
 int[] CreateRandomArray(int size, int minVal, int maxVal)
 {
     int[] array = new int[size];
@@ -86,7 +86,7 @@ int[] array  = CreateRandomArray(num, -100, 100);
 ShowArray (array);
 
 Console.WriteLine($"-> {SumMethod(array)}");
-*/
+
 
 
 
@@ -95,7 +95,7 @@ Console.WriteLine($"-> {SumMethod(array)}");
 [3 7 22 2 78] -> 76
 */
 
-/*
+
 int[] CreateRandomArray(int size, int minVal, int maxVal)
 {
     int[] array = new int[size];
@@ -136,4 +136,3 @@ int[] array  = CreateRandomArray(size, 1, 100);
 ShowArray(array);
 
 Console.WriteLine($"-> {MinMaxMethod(array)}");
-*/
