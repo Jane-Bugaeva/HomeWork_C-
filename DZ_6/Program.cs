@@ -4,7 +4,7 @@
 1, -7, 567, 89, 223-> 4
 */
 
-/*
+
 void PositiveMethod()
 {
     Console.Write("Введите количество чисел: ");
@@ -29,7 +29,7 @@ Console.WriteLine($"-> {count}");
 }
 
 PositiveMethod();
-*/
+
 
 
 
@@ -40,34 +40,23 @@ b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
 
 
 void CrossingMethod() 
-
 {
+    Console.Write("Введите значение b1: ");
+    double b1 = Convert.ToDouble(Console.ReadLine());
 
-Console.Write("Введите значение b1: ");
+    Console.Write("Введите значение k1: ");
+    double k1 = Convert.ToDouble(Console.ReadLine());
 
-double b1 = Convert.ToDouble(Console.ReadLine());
+    Console.Write("Введите значение b2: ");
+    double b2 = Convert.ToDouble(Console.ReadLine());
 
-Console.Write("Введите значение k1: ");
+    Console.Write("Введите значение k2: ");
+    double k2 = Convert.ToDouble(Console.ReadLine());
 
-double k1 = Convert.ToDouble(Console.ReadLine());
+    double x = (b2 - b1) / (k1 - k2);
+    double y = k1 * x + b1;
 
-Console.Write("Введите значение b2: ");
-
-double b2 = Convert.ToDouble(Console.ReadLine());
-
-Console.Write("Введите значение k2: ");
-
-double k2 = Convert.ToDouble(Console.ReadLine());
-
-
-
-double x = (b2 - b1) / (k1 - k2);
-
-double y = k1 * x + b1;
-
-
-
-Console.WriteLine($"-> ({x}; {y})");
+    Console.WriteLine($"-> ({x}; {y})");
 }
 
 CrossingMethod();
