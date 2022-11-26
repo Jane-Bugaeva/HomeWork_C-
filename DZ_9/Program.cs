@@ -3,7 +3,7 @@
 N = 5 -> "5, 4, 3, 2, 1"
 N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 */
-/*
+
 void ShowNums(int n)
 {
     if (n < 1) return;
@@ -12,7 +12,7 @@ void ShowNums(int n)
 }
 
 ShowNums(8);
-*/
+
 
 
 
@@ -39,7 +39,7 @@ Console.WriteLine(SumOfNum(4, 8));
 m = 2, n = 3 -> A(m,n) = 9
 m = 3, n = 2 -> A(m,n) = 29
 */
-/*
+
 int A(int n, int m) 
 {
     if (n == 0)
@@ -52,4 +52,3 @@ int A(int n, int m)
 }
 
 Console.WriteLine(A(2, 3));
-*/
